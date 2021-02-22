@@ -16,14 +16,23 @@ header {
     z-index: 10;
     width: 100%;
     background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
 }
 
 nav {
     display: inline-flex;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    text-align: right;
 }
 
 header img {
     justify-content: flex-start;
+    height: 50px;
+    width: auto;
+    opacity: 0.9;
 }
 
 ul {
@@ -31,5 +40,6 @@ ul {
 }
 
 li {
-    display: inline-flex;
+    display: inline-block;
+    text-decoration: underline;
 }
