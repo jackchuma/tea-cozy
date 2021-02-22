@@ -1,13 +1,13 @@
 html {
     background-color: black;
     text-align: center;
+    opacity: 0.9;
 }
 
 li, h2, h3, h4 {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-    opacity: 0.9;
 }
 
 header {
@@ -33,13 +33,33 @@ header img {
     height: 50px;
     width: auto;
     opacity: 0.9;
+    margin-left: 10px;
 }
 
 ul {
-    justify-content: flex-end;
+    list-style: none;
+    padding-left: 62%;
 }
 
 li {
     display: inline-block;
     text-decoration: underline;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mission-background {
+    background-image: url("images/img-mission-background.webp");
+    height: 700px;
+    margin-top: 69px;
+    vertical-align: middle;
+}
+
+#mission-statement {
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    vertical-align: middle;
 }
