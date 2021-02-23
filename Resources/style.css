@@ -1,12 +1,16 @@
 html {
     background-color: black;
     text-align: center;
+}
+
+li, h2, h3, h4, h5 {
+    font-family: Helvetica;
+    color: seashell;
     opacity: 0.9;
 }
 
-li, h2, h3, h4 {
-    font-family: Helvetica;
-    color: seashell;
+img {
+    opacity: 0.9;
 }
 
 p {
@@ -92,4 +96,39 @@ li {
 
 .tea-container h4 {
     margin-top: 10px;
+}
+
+#locations {
+    background-image: url("images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 5%;
+}
+
+#locations div {
+    background-color: black;
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    line-height: 3;
+}
+
+footer {
+    height: 200px;
+}
+
+footer h2 {
+    margin-bottom: 40px;
+}
+
+footer h5 {
+    line-height: 3;
+}
+
+#copyright {
+    text-align: left;
 }
