@@ -6,8 +6,11 @@ html {
 
 li, h2, h3, h4 {
     font-family: Helvetica;
-    font-size: 22px;
     color: seashell;
+}
+
+p {
+    font-size: 22px;
 }
 
 header {
@@ -59,9 +62,34 @@ li {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 #mission-statement {
     background-color: black;
     width: 100%;
+    position: absolute;
+    top: 35%;
+}
+
+#tea-of-the-month {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.tea-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-container h4 {
+    margin-top: 10px;
 }
